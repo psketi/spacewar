@@ -1,0 +1,26 @@
+body {
+ background: black;
+ color: black;
+}
+
+div.frame {
+ position: relative;
+ width: 650px;
+ height: 550px;
+}
+
+div.spacewar {
+ position: absolute;
+ width: 650px;
+ height: 550px;
+ overflow: hidden;
+}
+
+canvas.spacewar {
+ background: black;
+ position: absolute;
+ width: 550px;
+ height: 550px;
+ top: 0px;
+ left: 0px;
+}
